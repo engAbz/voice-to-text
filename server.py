@@ -7,7 +7,6 @@ from queue import Queue
 from threading import Thread
 import logging
 
-# إعداد التسجيل
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
